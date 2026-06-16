@@ -2,17 +2,17 @@ const prompt = require('prompt-sync')()
 
 let numeros = []
 
-console.log("Escreva 6 números")
+console.log("Escreva 10 números")
 
-for(let i = 0; i < 6; i++) {
+for(let i = 0; i < 10; i++) {
     let num = parseInt(prompt("Digite um número: "))
     numeros.push(num)
 }
 
-console.log("Números positivos:")
+console.log("Números pares:")
 
 for(let i = 0; i < numeros.length; i++) {
-    if(numeros[i] > 0) {
+    if(numeros[i] % 2 === 0) {
         console.log(numeros[i])
     }
 }

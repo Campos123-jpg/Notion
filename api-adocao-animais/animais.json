@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "tipo": "cachorro",
+    "raca": "Labrador",
+    "caracteristicas": "Atualizado: adora agua e passear no parque"
+  },
+  {
+    "id": "3",
+    "tipo": "cachorro",
+    "raca": "Vira-lata",
+    "caracteristicas": "Calmo, ideal para apartamento"
+  },
+  {
+    "id": "4",
+    "tipo": "gato",
+    "raca": "Persa",
+    "caracteristicas": "Muito peludo e calmo"
+  }
+]

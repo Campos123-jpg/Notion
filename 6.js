@@ -8,11 +8,7 @@ for(let i = 0; i < 5; i++) {
     let produto = prompt(`Digite o ${i + 1}º produto: `)
     produtos.push(produto)
 }
-console.log("\nLista de produtos: ")
-for(let i = 0; i < produtos.length; i++) {
-    console.log(produtos[i])
-}
-produtos.pop()
+produtos.shift()
 
-console.log("\nLista após apagar o último produto:")
+console.log("\nLista após apagar o primeiro produto:")
 console.log(produtos)
